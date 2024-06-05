@@ -25,7 +25,7 @@ class CurrencyController extends Controller {
             return $this->parserService->extractCurrencyData($html, $validated);
         });
 
-        return response()->json($results);
+        return response()->json($results, $results == [] ? 422 : 200);
     }
 
     private function generateCacheKey($validated) {

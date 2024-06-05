@@ -13,8 +13,8 @@ Antes de começar, você precisa ter o Docker instalado em seu sistema. Se você
 Clone o repositório no seu local de trabalho:
 
 ```bash
-git clone https://your-repository-url.git
-cd currency-crawler-project
+git clone git@github.com:andreazevedobauru/scrapter.git
+cd scrapter
 ```
 
 ## Iniciando com Laravel Sail
